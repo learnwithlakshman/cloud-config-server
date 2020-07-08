@@ -6,6 +6,8 @@ spring:
       name: cloud-config-server
    main:
       logStartupInfo: false
+   profiles:
+      active: prod
    cloud:
       config:
          server:
