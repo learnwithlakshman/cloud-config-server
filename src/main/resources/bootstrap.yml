@@ -10,7 +10,7 @@ spring:
       config:
          server:
             git:
-               uri: file:///cloud-config-server/configurations
+               uri: file:///R:\\Quizer-ws\\configurations
                search-paths: '{application}'
 ---
 spring:
