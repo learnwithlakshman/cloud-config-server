@@ -6,13 +6,11 @@ spring:
       name: cloud-config-server
    main:
       logStartupInfo: false
-   profiles:
-      active: prod
    cloud:
       config:
          server:
             git:
-               uri: file:///home/spaneos/git/lwl/configurations
+               uri: file:///cloud-config-server/configurations
                search-paths: '{application}'
 ---
 spring:
